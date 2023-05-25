@@ -1,0 +1,25 @@
+#page-title {
+  text-align: center;
+}
+
+#search-form {
+  text-align: center;
+}
+
+#recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5;
+  width: 70vw;
+  margin: auto;
+}
+.recipe-card {
+  width: 400px;
+  border: 1px solid gray;
+  padding: 40px;
+  margin-top: 40px;
+}
+.recipe-header {
+  color: green;
+}
